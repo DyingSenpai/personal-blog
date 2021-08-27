@@ -1,0 +1,46 @@
+@import "vars";
+@import "reset";
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #181818;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: $white;
+}
+/* Style for Wrapper */
+@import "blocks/page";
+/* Style for Header */
+@import "blocks/header";
+/* Style for Navigation */
+@import "blocks/nav";
+/* Style for Sub Menu */
+@import "blocks/subnav";
+/* Style for Search Form */
+@import "blocks/search";
+/* Style for Sidebar */
+@import "blocks/sidebar";
+/* Style for Profile */
+@import "blocks/profile";
+/* Style for Content */
+@import "blocks/content";
+/* Import Container */
+@import "blocks/container";
+/* Style for Social */
+@import "blocks/social";
+/* Style for Buttons */
+@import "blocks/btn";
+/* Style for Stories Block */
+@import "blocks/stories";
+/* Style for Add post (Admin) */
+@import "blocks/add-post";
+/* Style for View post */
+@import "blocks/post";
+/* Style for Embed iframes */
+@import "blocks/embed";
+/* Style for Page Navigation */
+@import "blocks/pagination";

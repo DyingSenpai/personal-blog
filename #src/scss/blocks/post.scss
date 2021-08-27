@@ -1,0 +1,105 @@
+.post {
+    margin-bottom: 3rem;
+    padding: 2.5rem;
+    border-radius: 5px;
+    background-color: $primary;
+    box-shadow: 0 15px 25px rgba($color: $black, $alpha: 0.35);
+    overflow: hidden;
+
+    &__actions {
+        margin-bottom: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        color: $white;
+
+        a {
+            color: inherit;
+        }
+    }
+
+    &__header {
+        margin: 0 0 2.5rem 0;
+
+        &-preview {
+            margin: -2.5rem -2.5rem 2.5rem -2.5rem;
+        }
+    }
+
+    &__content {
+        margin-bottom: 2rem;
+    }
+
+    &__title {
+        font-size: 1.8rem;
+        color: $white;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+
+        &-mb0 {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: inherit;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &__preview {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        color: #d2d2d2;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__data {
+        display: flex;
+        color: #828282;
+        line-height: 1.2;
+
+        a {
+            color: inherit;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        &-item {
+            &:not(:last-child):after {
+                content: "";
+                display: inline-block;
+                width: 6px;
+                height: 6px;
+                margin: 0 1.5rem;
+                position: relative;
+                top: -2px;
+                border-radius: 50%;
+                background-color: #c4c4c4;
+            }
+        }
+    }
+
+    &__read {
+        font-size: 1.4rem;
+        color: #107eff;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
